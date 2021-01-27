@@ -1,21 +1,21 @@
 import React from 'react';
 import './style.less';
-import heart from '../../assets/heart.svg';
 import DescriptionImg from '../../assets/description_image.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faTools } from '@fortawesome/free-solid-svg-icons';
+library.add(faTools);
 
 const Description: React.FC = () => (
   <div className="description" id="description">
-    <h2>A Community of Developers <img alt="heart icon" src={heart}></img> </h2>
+    <h2>
+      Build something cool <FontAwesomeIcon color="black" icon={['fas', 'tools']} />
+    </h2>
     <div className="description-content">
       <span className="text">
-        Ay wassup gamers its jennifer back with another minecraft
-        livestream last time we lost our cat fluffy because some one killed
-        it we dont know who did it but today we will avenge our fluffy friend
-        first well need one bar of melon ice cream and a bottle of water, mix
-        them together into a cup and drink it because were going to have a
-        wild ride also were going to need a sad playlist because were still
-        sad about fluffys death ok i miss you buddy were gonna kill the
-        ender dragon for ya its 4 am
+        ACM Projects is a quarter-long pursuit where teams work together to build something cool. Teams consist of
+        software engineers, designers, and a product manager, and work together to create a project. Teams will receive
+        mentorship and guidance to create their project.
       </span>
       <img className="description-image" src={DescriptionImg} alt="It's us!" />
     </div>

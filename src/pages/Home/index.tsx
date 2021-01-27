@@ -17,9 +17,9 @@ const Home = () => {
       <LandingCard />
       <div className='container'>
         <Description />
-        <h2>Events <FontAwesomeIcon icon={["fas", "calendar-alt"]}/></h2>
-        <p>Participate in fun activities!</p>
-        <EventList limit={4}/>
+        {/* <h2>Events <FontAwesomeIcon icon={["fas", "calendar-alt"]}/></h2> */}
+        {/* <p>Participate in fun activities!</p>
+        <EventList limit={4}/> */}
         <Team/>
       </div>
     </div>
