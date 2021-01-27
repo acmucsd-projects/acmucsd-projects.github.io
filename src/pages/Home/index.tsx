@@ -1,14 +1,9 @@
 import React from 'react';
 import LandingCard from 'components/LandingCard';
 import Description from 'components/Description';
-import EventList from 'containers/Events/EventsListContainer';
 import NavBar from 'components/NavBar';
 import './style.less';
 import Team from 'components/Team';
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { faCalendarAlt } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-library.add(faCalendarAlt);
 
 const Home = () => {
   return (
