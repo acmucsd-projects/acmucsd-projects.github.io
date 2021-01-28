@@ -1,7 +1,7 @@
 import stanley from '../assets/people/stanley.jpg';
 import ronak from '../assets/people/ronak.jpg';
 import ishaan from '../assets/people/ishaan.jpg';
-import william from '../assets/people/william.jpg';
+import william from '../assets/people/william.png';
 import michael from '../assets/people/michael.jpg';
 
 export const team = [
@@ -35,7 +35,7 @@ export const team = [
     role: 'Committee Member',
     profilePicture: william,
     plugs: {
-      linkedin: 'duanwilliam',
+      github: 'duanwilliam',
     },
   },
   {
